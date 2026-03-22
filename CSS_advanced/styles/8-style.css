@@ -1,0 +1,11 @@
+/* Task 8: Line height */
+
+:root {
+  --line-height-small: 1.2;
+  --line-height-base: 1.5;
+  --line-height-big: 1.8;
+}
+
+body {
+  line-height: var(--line-height-base);
+}
