@@ -1,0 +1,20 @@
+/* Task 28 */
+
+:root {
+  --header-padding: 4rem 0 0;
+}
+
+.header {
+  padding: var(--header-padding);
+}
+
+.header-logo {
+  position: relative;
+}
+
+.header-logo a {
+  display: inline-block;
+  position: absolute;
+  top: -1rem;
+  left: 0;
+}
