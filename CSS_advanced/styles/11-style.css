@@ -1,12 +1,7 @@
 /* Task 11 */
 
 :root {
-  --section-header-align: center;
   --section-tagline-transform: uppercase;
-}
-
-.section-header {
-  text-align: var(--section-header-align);
 }
 
 .section-tagline {
