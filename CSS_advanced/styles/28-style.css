@@ -1,20 +1,20 @@
 /* Task 28 */
 
 :root {
-  --header-padding: 4rem 0 0;
+  --nav-item-link-hover: var(--color-white);
 }
 
-.header {
-  padding: var(--header-padding);
-}
-
-.header-logo {
-  position: relative;
-}
-
-.header-logo a {
-  display: inline-block;
+.nav .nav-link::before {
+  content: "";
   position: absolute;
-  top: -1rem;
+  top: 0;
   left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
+}
+
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
 }

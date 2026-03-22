@@ -1,13 +1,17 @@
 /* Task 23 */
 
-.footer-address {
-  color: var(--text-color);
+.card-services .card-title {
+  margin: 0;
 }
 
-.social-link {
+.card-services a {
   display: block;
+  padding: 2rem;
+  background-color: var(--color-light-grey);
 }
 
-.social-link svg {
-  fill: var(--text-color);
+.card-services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
 }
