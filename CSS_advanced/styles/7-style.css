@@ -1,4 +1,6 @@
-/* Task 7: Google fonts */
+/* Task 7 */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap");
 
 :root {
   --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
